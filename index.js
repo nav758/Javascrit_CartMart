@@ -44,8 +44,7 @@ function displayProducts(products) {
     buy.classList.add("buy");
     const link = document.createElement("a");
     link.href = `buy.html`;
-    link.appendChild(document.createTextNode("Buy"));
-
+    link.textContent = "Buy";
     buy.appendChild(link);
 
     productDiv.appendChild(img);
